@@ -1,6 +1,7 @@
 ###############################################
 ### SETUP ###
 # My malicious comment!#
+# My malicious comment #2 #
 import codesters
 from codesters import StageClass
 stage = StageClass()

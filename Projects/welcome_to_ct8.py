@@ -6,9 +6,9 @@ stage = StageClass()
 ###############################################
 
 
-stage.set_background("fall")
-mySprite = codesters.Sprite("cardinal")
-mySprite.say("Good job finding me!")
+stage.set_background("nyc")
+mySprite = codesters.Sprite("rat")
+mySprite.say("I'm the 41 lb rat from nyc!")
 
 
 print("Welcome to CT8!")
@@ -26,3 +26,4 @@ print("\t2: move your mouse over the words in blue that start with https://")
 print("\t3: a few icons should appear - click the globe")
 print("\t4: a new tab will open - click CONNECT")
 print("\n\nWhen you have found the CARDINAL, click here, then use CTRL C to end the program\n\n")
+print("This is the new last instruction")

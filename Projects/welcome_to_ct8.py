@@ -8,7 +8,7 @@ stage = StageClass()
 
 stage.set_background("pond")
 mySprite = codesters.Sprite("can")
-mySprite.say("pollution")
+mySprite.say("polution")
 
 
 print("\n\nWhen you have found the CARDINAL, click here, then use CTRL C to end the program\n\n")

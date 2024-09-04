@@ -7,7 +7,7 @@ stage = StageClass()
 
 
 stage.set_background("spring")
-mySprite = codesters.Sprite("applecore")
-mySprite.say("This message was altered by H1ImLost!")
-mySprite2=("baseball",0,50)
+Sprite1 = codesters.Sprite("cardinal",100,0)
+Sprite1.say("go saas")
 
+Sprite2 = codesters.Sprite("dog",-100,0)

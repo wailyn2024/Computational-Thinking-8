@@ -6,10 +6,16 @@ stage = StageClass()
 ###############################################
 
 
-stage.set_background("cat")
-mySprite = codesters.Sprite("cat")
-mySprite.say("sup!")
+stage.set_background("image,png")
 
+
+sprite1 = codesters.Sprite("bird" ,100.0)
+sprite1.say("bonjour")
+
+sprite2 = codesters.Sprite("fish" ,-100,0)
+sprite2.set_size(0.3)
+sprite2.say("oui oui")
+ 
 
 print("Welcome to CT8!")
 print("Great job correctly setting up this ")

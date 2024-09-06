@@ -6,10 +6,10 @@ stage = StageClass()
 ###############################################
 
 
-stage.set_background("fall")
-mySprite = codesters.Sprite("cardinal")
-mySprite.say("Good job finding me!")
-
+stage.set_background("park")
+mySprite = codesters.Sprite("fox")
+mySprite.say("I like pancakes!")
+mySprite.set_size(1.5)
 
 
 print("\n\nWhen you have found the CARDINAL, click here, then use CTRL C to end the program\n\n")

@@ -20,3 +20,5 @@ mySprite2.say("hi")
 mySprite2.set_size (0.30)
 mySprite2.set_bottom
 
+
+mySprite.say_color_("this should be colored")

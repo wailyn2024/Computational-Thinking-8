@@ -36,7 +36,7 @@ Repository and Codespace required for Computational Thinking 8
 
 
 ## To Access from Home:
-1. Go to github.com/features/codespaces
+1. Go to github.com/features/codespace
 2. Sign in
 3. Click "get started for free"
 4. Scroll down to "Owned by [Your Name]" and click the codespace to launch

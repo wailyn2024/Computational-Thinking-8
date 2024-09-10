@@ -24,3 +24,6 @@ s3.set_size(0.1)
 
 s4 = codesters.Sprite("gaming",-100,100)
 s4.set_size(0.1)
+
+message1 = codesters.Text ("My name is Blake",0,220,"purple")
+message2 = codesters.Text ("I go to SAAS and I'm very athletic",0,-220,"black")

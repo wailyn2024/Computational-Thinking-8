@@ -22,4 +22,4 @@ s4 = codesters.Sprite("cardinal", -100, 100)
 s2.set_size(0.1)
 
 message1 = codesters.Text("Im neel", 0, 220, "red")
-message1 = codesters.Text("idk, I dont write stuff here", 0, -220, "blue")
+message1 = codesters.Text("Hello!", 0, -220, "blue")

@@ -25,4 +25,4 @@ s4 = codesters.Sprite("seattle", -100, 100)
 s4.set_size(0.6)
 
 message1 = codesters.Text("Harper Grace Owens", 0,220,"white")
-message2 = codesters.Text("live,laugh,love",0,-220,"white")
+message2 = codesters.Text("live,laugh,love",0,-220,"white") 

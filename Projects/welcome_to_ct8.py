@@ -6,7 +6,7 @@ stage = StageClass()
 ##############################################
 
 
-stage.set_background("spring")
+stage.set_background("image.png")
 mySprite = codesters.Sprite("flower2")
 mySprite.say("Go Emimae!")
 

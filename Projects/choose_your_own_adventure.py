@@ -32,3 +32,7 @@ print("What house should you stop at first? Maybe the big blue house with the gi
 
 #c3
 c3 = input("Do you walk up to the [blue] house or the [haunted] house?")
+if "blue" in c2:
+        print("You walk up too the blue house and ring the doorbell.")
+else:
+        print("You walk up to the decorated haunted house and ring their doorbell.")

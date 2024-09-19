@@ -24,13 +24,29 @@ if "help" in c2:
     print("As you float through the sea, lights begin to pop up from the lightless void. Much to your surprise, a city lays beneath the waves.")
     print("The aquatic elf leads you to a small hut, adorned by large, glowing pearls. 'This is the most we can provide for you right now. I hope it's enough.' The elf turns to leave, letting you explore the hut. Before he leaves, he turns.")
     print("'My name is Adonis, by the way.'")
-    
-        c4 = input("You look around in your new...settlement. Due to some enchantment, in this space you can breathe and exist in the sea without a suit. More comfortable, you decide to look around the room. Do you look through the [bookshelf], check the [floorboards}, or check the [bed]?")
-        if "book" in c4:
-            print("You feel through the books, pulling some out to check titles. By chance, pulling a book happens to open a trapdoor next to your feet. You startle, moving back a bit.")
-        elif "floor" in c4
-            print("You feel through the floorboards. Some are old, weathered by time, but some are perfect. You decide they must've renovated the place.")
+    c4 = input("You look around in your new...settlement. Due to some enchantment, in this space you can breathe and exist in the sea without a suit. More comfortable, you decide to look around the room. Do you look through the [bookshelf], check the [floorboards}, or check the [bed]?")
+    if "book" in c4:
+         print("You feel through the books, pulling some out to check titles. By chance, pulling a book happens to open a trapdoor next to your feet. You startle, moving back a bit.")
+    elif "floor" in c4:
+        print("You feel through the floorboards. Some are old, weathered by time, but some are perfect. You decide they must've renovated the place.")
+    else:
+        print("You hop on the bed. It's a bit creaky, but the sheets are nice and soft. Some of the blankets display old symbols of mermaids, from thousands of years ago. How long have they been waiting for a human?")
+
+#BAD ENDING
 else:
     print("The elf looks...startled. His face twists with emotions, before he settles to a terrifyingly blank face.")
     print("'I'm sorry, I- I didn't want it to come to this.")
-    print("The elf lunges forward, leaving you only a slim second to dodge him. Where you just were, he slashes through the water. Terrified, you turn")
+    print("The elf lunges forward, leaving you only a slim second to dodge him. Where you just were, he slashes through the water. Terrified, you turn your back to him and begin desperately swimming towards the surface.")
+    c5 = input("As you swim, you can see him gaining ground on you. As you desperately kick your feet, you know you have two options. To throw him off, you can either throw the [flashlight] or the [stopwatch].    ")
+    if "flash" or "light" in c5:
+        print("Ripping the attachment cord off the flashlight, you hit the on button and toss it down towards your attacker.")
+        print("As it falls through the water, the beam of light spins erratically.")
+        print("As it nears the elf, it spins, hitting him with a beam of light in the face.")
+        print("He shrieks, bubbles exploding from his mouth. You can hear hisses and whines as he descends back into the depths.")
+        print("Taking one last look, you can see that his face has burns and boils on it.")
+        print("You finish the trek back to the surface, your sides heaving as you haul yourself onto the boat.")
+        print("Collapsing onto the boat, you rip your gear off.")
+        print("               ")
+        print("..What just happened?")
+    else:
+        print("You rip the stopwatch off your wrist and send it hurtling through the water.")

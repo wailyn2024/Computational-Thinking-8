@@ -137,7 +137,7 @@ while Game:
         Game = False
         quit
     elif BonnieRoom == 5 and LDoorClosed:
-        BonnieRoom = 0
+        BonnieRoom = 
         print("bonnie doesn't get in from the right door, it storms away")
     #chica
     if ChicaRoom == 5 and not RDoorClosed:

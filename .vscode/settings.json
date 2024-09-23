@@ -13,5 +13,6 @@
     "cSpell.words": [
         "codesters",
         "stage"
-    ]
+    ],
+    "python.REPL.enableREPLSmartSend": false
 }

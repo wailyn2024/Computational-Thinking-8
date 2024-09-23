@@ -1,0 +1,9 @@
+while True:
+    word = input ("whats the best holiday")
+
+    if "christmas" in word:
+        print (f"Correct!")
+    else:
+        print(f"wrong")
+
+        print ("")

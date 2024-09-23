@@ -10,7 +10,7 @@ stage = StageClass()
 
 while True:
     word =input("What do you think Grandma likes?")
-    if "a" or "b" in word.lower:
+    if "a" or "b" in word:
         print(f"Grandma loves {word}!")
     else:
         print(f"Grandma doesn't like {word}...")

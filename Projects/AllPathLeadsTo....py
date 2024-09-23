@@ -14,7 +14,7 @@ if "jukebox" in c1:
         print("you find nothing under the bed")
         #right choice 2
         e1 = input("do you go back to [sleep] or [wait]")
-        if "bed" or "sleep" in e1:
+        if "bed" in e1 or "sleep" in e1:
             print("you wake up to see that your cell door is unlocked and the key to the jukebox on the floor")
             e2 = input("do you explore the now open [hallway] or mess with the [jukebox]")
             if "hallway" or "run" is e2:
@@ -22,7 +22,7 @@ if "jukebox" in c1:
                 print("You run away from him")
                 #True Ending
                 d1 = input("Do you [run] and try to shake him off or [fight]")
-                if "run" or "hallway" in d1:
+                if "run" in d1 or "hallway" in d1:
                     print("He follows you but you manage to shake him off")
                     print("You find your self in a room full of men in black ski masks")
                     print("they are praying to your figure")

@@ -1,7 +1,7 @@
 #setup
 import time
 #intro
-print("you wake up in teh middle of nowhere.")
+print("you wake up in the middle of nowhere.")
 print("the sun is setting and it will be night in about 5 minutes.")
 print("you look around and see a cave, a forest, and the beach")
 #choice 1
@@ -10,7 +10,7 @@ c1 = input("Where do you want to go? ")
 if "cave" in c1.lower():
     print(" ")
     print("you walk into the cave and feel like your being watched")
-    print("as you turn around the silhouette of creature and then nothing")
+    print("as you turn around to the silhouette of creature and then nothing")
     print("game over")
     #forest
 elif "forest" in c1.lower():

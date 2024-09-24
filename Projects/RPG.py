@@ -50,18 +50,27 @@ while Game:
         BonnieRoom = 0
         ChicaRoom = 0
         FoxyStage = 0
+        print("its night "+str(night)+"!")
         power = 100
     if night == 1:
         BonnieAggro = 3
     if night == 2:
-        BonnieAggro = 6
-        FoxyAgro = 4
-        ChicaAggro = 5
+        BonnieAggro = 5
+        FoxyAgro = 2
+        ChicaAggro = 3
     if night == 3:
-        BonnieAggro = 12
-        FoxyAgro = 10
-        ChicaAggro = 8
+        BonnieAggro = 7
+        FoxyAgro = 4
+        ChicaAggro = 6
     if night == 4:
+        BonnieAggro = 9
+        FoxyAgro = 6
+        ChicaAggro = 8
+    if night == 5:
+        BonnieAggro = 13
+        FoxyAgro = 12
+        ChicaAggro = 11
+    if night == 6:
         print("you win")
         Game = False
         quit

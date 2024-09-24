@@ -1,5 +1,5 @@
 # Computational-Thinking-8
-Repository and Codespace required for Computational Thinking 8
+Repository and required for Computational Thinking 8
 
 
 ## Setting Up This Repository for Yourself:
@@ -7,8 +7,8 @@ Repository and Codespace required for Computational Thinking 8
 2. Enter your __SAAS Email__ and create a password
 3. Create a username: **pick something school appropriate, you will have to share it with the teacher**
 4. Return to this page and make sure you are logged in
-5. Click the green button that says "Code" and choose **"Codespaces" and press the + sign**
-6. This will begin to build the codespace for the class
+5. Click the green button that says "Code" and choose **"" and press the + sign**
+6. This will begin to build the for the class
 7. Bookmark the page while you wait for it to build by clicking the star in your browser
 8. When it finishes building, select "welcome_to_ct8" from the file list on the left
 9. Click the triangle in the top right to run the welcome_to_ct8 program and follow the instructions that appear
@@ -16,7 +16,7 @@ Repository and Codespace required for Computational Thinking 8
 
 ## To Create a Git Branch (must do this before saving your work for the first time):
 1. Wait until you receive an email from github that *adds you as a collaborator* - click Accept
-2. Go to your bookmarked codespace
+2. Go to your bookmarked
 3. Click on the "Source Control" tab on the left sidebar (looks like 3 circles with twisty lines connecting them)
 4. Click on the three sideways dots menu on that tab
 5. Choose "Branch" --> "Create Branch"
@@ -36,10 +36,9 @@ Repository and Codespace required for Computational Thinking 8
 
 
 ## To Access from Home:
-1. Go to github.com/features/codespace
-2. Sign in
+1. Go to github.com/features/
 3. Click "get started for free"
-4. Scroll down to "Owned by [Your Name]" and click the codespace to launch
+4. Scroll down to "Owned by [Your Name]" and click the to launch
 
 
 ## To Use a Program with a Screen:

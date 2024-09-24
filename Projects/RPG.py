@@ -127,7 +127,7 @@ while Game:
     ChicaMove = random.randint(1,20)
     if BonnieMove <= ChicaAggro:
         ChicaRoom += 1
-    Foxy = random.randint(1,20)
+    FoxyMove = random.randint(1,20)
     if FoxyMove <= FoxyAgro:
         FoxyStage += 1
     #bonnnie
@@ -137,7 +137,7 @@ while Game:
         Game = False
         quit
     elif BonnieRoom == 5 and LDoorClosed:
-        BonnieRoom = 
+        BonnieRoom = 1 
         print("bonnie doesn't get in from the right door, it storms away")
     #chica
     if ChicaRoom == 5 and not RDoorClosed:

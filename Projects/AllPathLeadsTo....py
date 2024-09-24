@@ -84,4 +84,4 @@ else:
     #Ending 1
     End = input("you find yourself in a cross shaped coffin. You scream for help but no one comes for you.")
     print("YOU HAVE DIED")
- 
+    

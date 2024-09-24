@@ -3,7 +3,7 @@ import time
 #intro
 print("you wake up in the middle of nowhere.")
 print("the sun is setting and it will be night in about 5 minutes.")
-print("you look around and see a cave, a forest, and the beach")
+print("you look around and see a [cave], a [forest], and the [beach]")
 #choice 1
 c1 = input("Where do you want to go? ")
 #cave
@@ -15,7 +15,7 @@ if "cave" in c1.lower():
     #forest
 elif "forest" in c1.lower():
     print(" ")
-    print("you wander through the forest and see a hut, and a long winding path")
+    print("you wander through the forest and see a [hut], and a long winding [path]")
     forestc1 = input("where do you go next? ")
     #hut
     if "hut" in forestc1.lower():
@@ -35,13 +35,13 @@ elif "forest" in c1.lower():
             print("you head outside and see a road that you could've sworn wasn't there before")
             print("as you walk down the road you see a sign pointing into the woods that say one mile ahead")
             print("however you also see a sign pointing farther down the road that says that a town is 2 miles that way")
-            roadc1 = input("do you go down the road or into the forest? ")
+            roadc1 = input("do you go down the [road] or into the [forest]? ")
             #road
             if "road" in roadc1.lower():
                 print(" ")
                 print("as you walk down the road a car comes into view")
                 print("the car stops near you and offers you one supply")
-                print("they have food, water, and gas")
+                print("they have [food], [water], and [gas]")
                 roadc2 = input("what do you take? ")
                 if "food" in roadc2.lower() or "water" in roadc2.lower():
                     print(" ")
@@ -99,7 +99,7 @@ else:
     if "yes" in beachc1.lower():
         print(" ")
         print("there is no response just an eery silence")
-        beachc2 = input("do you want to swim or keep walking down the beach? ")
+        beachc2 = input("do you want to [swim] or [keep walking] down the beach? ")
         if "swim" in beachc2.lower():
             print(" ")
             print("as you swim out to the rowboat it seem almost as if its slowly drifting away")

@@ -13,7 +13,7 @@ if "scary" in c1:
     print("You have chosen to find a scary costume!")
 
     #c2
-    print("You found costumes that will be delivered later today. Perfect! There are so many to choose from.")
+    print("You found costumes online that will be delivered later today. Perfect! There are so many to choose from.")
     c2 = input("Choose between the creepy [clown] or [zombie].")
     if "clown" in c2:
         print("You have chosen to be a creepy clown for Halloween!")
@@ -41,16 +41,16 @@ else:
 print("You walk down the road and see a pile of scattered candy on the ground. Someone must have dropped it!")
 c4 = input("Do you [leave] it, [return] it, or [take] it for yourself?")
 if "leave" in c4:
-     print:("You are not greedy! And as a reward, five pieces of candy fall from the sky. You now have 11 pieces of candy!")
+     print:("You are not greedy! And as a reward, three pieces of candy fall from the sky. You now have 8 pieces of candy!")
 
 elif "return" in c4:
-     print("You find the owner of the candy and they are so grateful that they let you have it! You now have 11 pieces of candy!")
+     print("You find the owner of the candy and they are so grateful that they let you have it! You now whohave 11 pieces of candy!")
 
 else: 
      print("You eat the candy but it was expired. You feel sick now:(")
 
 #c5
-c5 = input(" You keep walked and see more houses. Do you walk up to the [mansion] or the [boring] house?")
+c5 = input(" You keep walking and see more houses. Do you walk up to the [mansion] or the [boring] house?")
 if "mansion" in c3:
     print("You walk up to the mansion and ring the 24k gold doorbell.")
     print("The door opens and an old man opens the door and throws candy at you. You pick up the 3 pieces and run off.")
@@ -60,6 +60,8 @@ else:
 #c6
 c6 = input ("There is one house left. You walk up to it and the door opens. A little kid stands at the dorr and says 'take one!' Do you take [one] or do run off with the [whole bucket]?")
 if "one" in c3:
+     print("    ")
      print("You take on piece and return home. You did not get 20 pieces of candy but you had a fun time.")
 else:
+    print("    ")
     print("You return home with your bucket and the kid's bucket of candy. You feel guilty but now you have so much candy!")

@@ -1,0 +1,33 @@
+# choice 5
+c3 = input("When you get back downstairs you notice a letter that wasn't there before; do you [open it] or [leave it there] ? ")
+if "open" in c3:
+        print("it tells you to go to the highschool gym")
+else:
+        print("you walk away") 
+
+     
+
+
+# choice 3
+c3 = input("Theres a backpack that looks familiar in the middle of the hall, Do you go [open it] or [leave it alone]")
+if "open" in c3:
+        print("you find a poorly drawn map!")
+else:
+        print("you walk past it")
+
+        # choice 4
+        c3 = input ("When you get back downstairs you notice a letter that wasn't there before; do you [open it] or [leave it there] ? ")
+if "open" in c3:
+        print("it tells you to go to the highschool gym")
+else:
+        print("you walk away")
+
+
+
+
+
+
+elif"4th" in c1:
+print ("you walk up to the 4th floor")
+else:
+print ("you go up to the 3rd floor")

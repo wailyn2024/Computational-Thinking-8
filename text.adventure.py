@@ -12,11 +12,16 @@ if "knock" in c1:
     if "cat" in c2:
         print("She says she hasn't seen any cats, but insists you come inside.")
         # choice 4
-        c4 = input("You walk inside and she gives you some tea. She tells you about how there was a curse put on the forrest, and if you want to survive you should drink her tea and get out as soon as possible. You remind her that you only came for you cat and you want to find her, but she insists its not worth it. Do you [listen] to the little girl and get out, leave the house but [continue looking] for you cat, or do you tell her shes crazy and demand to know about the needle and pouch? ")
+        c4 = input("You walk inside and she gives you some tea. She tells you about how there was a curse put on the forrest, and if you want to survive you should drink her tea and get out as soon as possible. You remind her that you only came for you cat and you want to find her, but she insists its not worth it. Do you [listen] to the little girl and get out, leave the house but [continue looking] for you cat, or do you tell her shes crazy and [demand to know] about the needle and pouch? ")
         if "listen" in c4:
             print("You escape and are safe, but cat-less.")
             print("You win!!")
-        elif ""
+        elif "demand to know" in c4:
+            print("The girl gets very worried and scared. She kills you so that you wouldn't find out the truth.")
+            print("You lose you minded your business.")
+        else:
+            print("You end up by the pond, and you get possessd by the ghosts of the forrest.")
+            print("You lose you should have listen to the little girl")
     else:
         print("She quickly hides the needle and pouch behind her back and looks at you, disturbed. She tells you to come inside, and you decide to follow her request.")
         
@@ -30,6 +35,7 @@ else:
     else:
         print("As soon as you step foot into the water, your sense hearing completely fades. You start to see sad children's heads peeking out the water around you, all staring at you. As your sense of hearing starts to fade back, all you could hear was their cries.")
         print ("You lose sorry")
+
 
 
 

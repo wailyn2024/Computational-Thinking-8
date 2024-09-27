@@ -2,7 +2,7 @@ while True:
         word = input("What do you think grandma likes? ")
 
         if "taylor swift" in word:
-                print(f"Grandma doesn't like kanye! ")
+                print(f"Grandma doesn't like west! ")
         else:
                 print(f"Grandma likes taylor swift")
             

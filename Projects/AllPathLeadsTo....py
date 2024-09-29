@@ -5,23 +5,23 @@ print("The room is covered in dust and cobwebs it looks like it hasn't been used
 print("their are metal bars preventing your escape.")
 print("You see a old juke box and a mattress")
 #choice 1
-c1 = input("what do you do?. Do you investigate the [jukebox] or sleep on the [bed]?")
+c1 = input("what do you do?. Do you investigate the [jukebox] or sleep on the [bed]?\n")
 if "jukebox" in c1:
     print("you find a little hole it looks big enough to hold a key")
     #right choice 2
-    c2 = input("You could either investigate the [bed] or [wait] for help")
+    c2 = input("You could either investigate the [bed] or [wait] for help\n")
     if "bed" in c2:
         print("you find nothing under the bed")
         #right choice 2
-        e1 = input("do you go back to [sleep] or [wait]")
-        if "bed" in e1 or "sleep" in e1:
+        e1 = input("do you go back to [sleep] or [wait]\n")
+        if "bed" in e1 or "sleep" in e1: 
             print("you wake up to see that your cell door is unlocked and the key to the jukebox on the floor")
-            e2 = input("do you explore the now open [hallway] or mess with the [jukebox]")
-            if "hallway" or "run" is e2:
+            e2 = input("do you explore the now open [hallway] or mess with the [jukebox]\n")
+            if "hallway" in e2 or "run" in e2:
                 print("You are exploring the hallway when a man in wearing a black ski mask starts chasing you")
                 print("You run away from him")
                 #True Ending
-                d1 = input("Do you [run] and try to shake him off or [fight]")
+                d1 = input("Do you [run] and try to shake him off or [fight]\n")
                 if "run" in d1 or "hallway" in d1:
                     print("He follows you but you manage to shake him off")
                     print("You find your self in a room full of men in black ski masks")
@@ -54,7 +54,7 @@ if "jukebox" in c1:
                     print("You hide behind the jukebox")
                     print("He doesn't find you")
                     print("He leaves")
-                    c4 = input("Do you continue [hiding] or[Run]")
+                    c4 = input("Do you continue [hiding] or[Run]\n")
                     if "Run" in c4:
                         print("He catches you")
                         print("YOUR DEAD")

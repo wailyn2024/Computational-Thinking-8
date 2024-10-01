@@ -10,6 +10,9 @@ t.goto(0,0)
 t.color("green")
 t.speed(100)
 t.pendown()
+color = r.choice(colors)
+t.fillcolor(color)
+t.begin_fill()
 angle = (1)
 forward = (10)
 #t2 setup
@@ -19,8 +22,10 @@ t2.speed(100)
 t2.pendown()
 t2.left(180)
 forward2 = (10)
+t2.fillcolor(color)
+t2.begin_fill()
 #turtle one
-for i in range(2000):
+for i in range(1000):
     t.forward(forward)
     t.left(angle)
     color = r.choice(colors)
@@ -42,5 +47,7 @@ for i in range(2000):
         t2.penup()
         t2.goto(0,0)
         t2.pendown()
+t.end_fill()
+t2.end_fill()
 #end
 turtle.exitonclick()

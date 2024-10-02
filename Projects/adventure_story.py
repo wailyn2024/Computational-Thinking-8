@@ -2,7 +2,7 @@
 print("You are outside walking your dog. It's 9:15 in late november, and its dark and cold.")
 print("You are lost, so you find an abandoned house and lead him inside, but he runs off. You dont think much of it, because he's a dog.")
 print("after about 45 minutes, you start to get worried,he's been gone for awhile.")
-print("Goal: Get out of the house before its to late...")
+print("Goal: Get out of the house safely before its to late...")
 
 # choice 1
 c1 = input("Do you go upstairs, or to the living room?")

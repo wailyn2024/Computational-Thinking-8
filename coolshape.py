@@ -6,7 +6,7 @@ t.penup()
 t.goto(100, 0)
 t.pendown()
 t.speed(100)
-
+#first color
 turtle.bgcolor("DeepPink")
 colors=["Slate Blue","Crimson"]
 for i in range (200):
@@ -25,7 +25,7 @@ r.goto(-100,-40)
 r.pendown()
 r.speed(100)
 
-
+#second color
 colors=["orange","yellow"]
 for i in range (90):
     r.color(random.choice(colors))
@@ -36,5 +36,5 @@ r.penup()
 r.goto(100,-40)
 r.pendown()
 r.speed(100)
-
+#ending
 turtle.exitonclick()

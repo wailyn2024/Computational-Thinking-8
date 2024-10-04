@@ -1,7 +1,8 @@
 import turtle,random
-
+#turtle commands!
 t = turtle.Turtle()
 
+#shows where to start and to start drawing
 t.penup()
 t.goto(-150, 0)
 t.pendown()

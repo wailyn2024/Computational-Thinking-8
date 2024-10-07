@@ -35,3 +35,43 @@ elif "call your friend"in c3:
 
 else:
     print("you go home and are fine and have a good sleep.")
+
+
+     # choice 4
+    print ("You decide to go to the park but get bored.")
+    c2 = input ("Do you go [get ice cream] or [walk forward]?")
+    if "left" in c2 or "get ice cream" in c2:
+        print ("You walk home towards the ice cream shop .")
+    else:
+        print ("You walk right towards the tree house [walk past] or [look around].")
+
+print ("you take some photos and walk along")
+
+print ("but then you slip on a banana peel but you are ok")
+
+#choice 5
+
+print ("You decide to go right towards the field")
+
+print ("you ether [skip thru the wind] or [sit on your phone]")
+c3= input ("what do you do?")
+if "skip thru the wind.:":
+   print("you skip home and are fine ")
+elif "sit on your phone"in c3:
+
+    print("you get your phone confiscated.")
+
+else:
+    print("but... you go home and are fine and have a ok sleep.")
+
+# choice 6
+    print ("You decide to go to the park.")
+    c2 = input ("Do you go [do the YMCA] or [run around like a crazy person]?")
+    if "do the YMCA" in c2 or "run around like a crazy person" in c2:
+        print ("run around like a crazy person.")
+    else:
+        print ("You RUN into the trees [smack into them] or [dont and be safe].")
+
+print ("you died")
+
+print ("you get a taco yay!")

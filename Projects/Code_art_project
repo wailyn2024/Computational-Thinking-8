@@ -1,0 +1,56 @@
+# ###############################################
+# ### SETUP ###
+import turtle
+# ###############################################
+t = turtle.Turtle()
+t.penup()
+t.goto(-100, -100)
+t.pendown()
+
+turtle.speed(100)
+#LEG
+turtle.color("blue")
+turtle.left(100)
+turtle.forward(100)
+#Body
+turtle.right(10)
+turtle.forward(100)
+#Arms
+turtle.right(120)
+turtle.forward(85)
+turtle.right(180)
+turtle.forward(87)
+turtle.left(60)
+turtle.forward(85)
+#Other Leg
+turtle.left(180)
+turtle.forward(87)
+turtle.right(120)
+turtle.forward(100)
+turtle.left(348)
+turtle.forward(105)
+
+
+
+
+#Head
+t.penup()
+t.goto(-20,200)
+t.pendown()
+for i in range(375):
+    t.forward(0.5)
+    t.left(1)
+    t.color("red")
+
+t.penup()
+t.goto(-300,-300)
+t.pendown()
+
+
+
+
+
+# ###############################################
+# ### ENDING ###
+turtle.exitonclick()
+# ###############################################

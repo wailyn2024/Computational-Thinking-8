@@ -45,10 +45,10 @@ else:
         else: 
             print ("The thing you saw was a human and gave you food to help you heal more quickly!")
             print ("you were able to heal quickly and and keep thriving!")
-        print ( "did you enjoy this experience of being an animal [yes] or [no]"?)
+            print ( "did you enjoy this experience of being an animal [yes] or [no]?")
                
-        if "yes" in c3
-        print ("Now you get to mass produce the potion!")
+        if "yes" in c1:
+            print ("Now you get to mass produce the potion!")
         else:
             print ("womp womp")
         

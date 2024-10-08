@@ -1,12 +1,16 @@
+
 import turtle,random,math
+#turtlesetup
 t = turtle.Turtle()
 t.speed(200)
 t.penup()
 t.goto(-100, -100)
 t.color("red")
 t.pendown()
+#turtlecolor
 turtle.bgcolor("Blue")
 colors = ["green", "Red"]
+#turtledrawing
 for i in range(100):
     t.color(random.choice(colors))
     t.forward(120 + i)

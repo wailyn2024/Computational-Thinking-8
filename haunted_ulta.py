@@ -23,7 +23,20 @@ elif "Look for someone who works there" in c1:
         else:
             print("you won bragging rights.")
             
-            c6 = input("Would you like to try for another prize?")
+        c6 = input("Would you like to try for another prize?")
+        if "yes" in c6: 
+                input("Congrats, just answer a question and the prize is yours. Is that okay?")
+        else:
+                print("sorry you lost")
+
+                c7 = input("Is that okay?")
+                if "yes" in c6: 
+                    input("Woohoo you win!")
+                elif "no" in c6:
+                    print("sorry you lost")
+
+
+
         if "yes" in c6:
             print("Should've said no you lost your prize !")
         else:

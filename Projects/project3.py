@@ -13,4 +13,3 @@ for i in range(5):
     t.left(72)
 
 # Keep the turtle window open until clicked
-turtle.exitonclick()

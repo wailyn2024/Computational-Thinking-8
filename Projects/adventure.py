@@ -1,4 +1,5 @@
 # intro
+# start
 print("your in a basketball game")
 print("you are down by four with 1 min left")
 print("will you and your team win thr game in the final miniute")
@@ -23,6 +24,7 @@ else:
             c6 = input ("your playing defense and your opponet drives in do you [go for the block] or [dont let him drive in]")
             if "go for the block" in c6:
                 print("you get pumped faked and he gets a layup")
+# your losing
             else:
                 print("you get the steal and now on a fats break")
 
@@ -41,6 +43,7 @@ else:
             c8 = input ("you make the dunk and win the game")
         else: 
             print("you abseloutly whiff the layup and lose")
+#this is the end of the game
 
 
             

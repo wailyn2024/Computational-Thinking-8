@@ -9,7 +9,7 @@ t = turtle.Turtle()
 t.penup()
 t.goto(0,0)
 t.pendown()
-#the object
+#rotating triangle
 for i in range(500):
     turtle.bgcolor(random.choice(background))
     t.color(random.choice(colors))
@@ -19,6 +19,7 @@ for i in range(500):
 t.penup()
 t.goto( 0, 0)
 t.pendown()
+#pentagon
 for i in range(400):
     turtle.bgcolor(random.choice(background))
     t.forward(50+i)

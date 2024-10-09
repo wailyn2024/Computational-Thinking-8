@@ -4,7 +4,7 @@ t = turtle.Turtle()
 
 t.goto (100,0)
 t.color ("cyan")
-
+#Moving Forward & Left
 for i in range (170):
     t.forward (150)
     t.left (115+1)

@@ -32,7 +32,7 @@ if "play" in c1:
         print("you press start")
 
 # choice 4 
-        c7 = print ( "You arrive at school" )
+        c1 = print ( "You arrive at school" )
 print ("")
 print ( "Strangely ... no one is there" )
 print ( " " )
@@ -81,33 +81,28 @@ print ( "✦•┈๑⋅⋯🎃⋯⋅๑┈•✦ ✦•┈๑⋅⋯🎃⋯⋅�
 print ( " " )
 print ( " " )
 
+
+
 # choice 1 
 c1 = input ("Would you like to go to [the 3rd floor], [the 4th floor], [or the 5th floor] ?")
 if "5th" in c1: 
-    print ("You walk up to the 5th floor")
-
-
-
-elif "3rd" in c1:
-      print("you walk to the 3rd floor")
 
 
 
 # choice 5
-c3 = input("Theres a backpack that looks familiar in the middle of the hall, Do you go [open it] or [leave it alone]")
+        c3 = input("Theres a backpack that looks familiar in the middle of the hall, Do you go [open it] or [leave it alone]")
 if "open" in c3:
         print("you find a poorly drawn map!")
 
 
 # choice 6
-c4 = input ("it looks like its leading you to one of the gyms, do you go to the [Upper school gym] or the [Middle school gym] ?")
-if "upper" in c4 or "high" in c4:
-        print("You start to head to the Upper school gym")
-        print("you slowly open the door...")
-        print("...")
-        print("...")
-        print("It's a surprise party? but its not even your birthday")
-        print("Will you [indulge] in the festivities? or will you [leave]? ")
+c4 = input ("it looks like its leading you to the gym?")
+
+print("you slowly open the door...")
+print("...")
+print("...")
+print("It's a surprise party? but its not even your birthday")
+print("Will you [indulge] in the festivities? or will you [leave]? ")
 if "leave" in c4:
       print("smart choice")
       print("Safe ending")
@@ -117,6 +112,8 @@ else:
         print("  ")
         print("forever...")
         print("Stuck ending")
+
+
 
 
 

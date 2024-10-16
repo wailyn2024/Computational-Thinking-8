@@ -1,5 +1,5 @@
 import turtle
-
+#pink shape
 t = turtle.Turtle()
 t.penup()
 t.goto(-100, -100)
@@ -14,7 +14,7 @@ for i in range (6):
 for i in range (30):
     t.forward(160)
     t.left(100 +1)
-
+#red shape
 t = turtle.Turtle()
 t.penup()
 t.goto(-10, -100)
@@ -27,5 +27,5 @@ for i in range (3):
 for i in range (30):
     t.forward(160)
     t.left(120 +1)
-
+#end
 turtle.exitonclick()

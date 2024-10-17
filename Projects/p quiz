@@ -1,0 +1,28 @@
+fromis_points = 0
+lesserafim_points = 0
+
+# question 1:
+answer = input("Do you like A) girly and love related songs , or B) more bada*s and party songs ")
+if answer == "A":
+	fromis_points += 1
+elif answer == "B":
+	lesserafim_points += 1
+
+# question 2:
+answer = input("Which color do you more A)pink , or B) blue?")
+if answer == "A":
+	fromis_points += 1
+elif answer == "B":
+	lesserafim_points += 1
+# question 3:
+answer = input("When your with your friends would you rather A) talk about boys and chill, or B) go out to party and shop?")
+if answer == "A":
+	fromis_points += 1
+elif answer == "B":
+	lesserafim_points += 1
+
+# end of quiz:
+if fromis_points > lesserafim_points:
+	print("You should listen to fromis_9! Join the flovers!")
+elif lesserafim_points > fromis_points:
+	print("You should listen to le sserafim! Join the fearnots!")

@@ -1,6 +1,7 @@
 cat_points = 0
 dog_points = 0
 
+#beginning
 # question 1:
 answer = input("On a weekend would you rather A) nap all day, or B) go on a hike?")
 if answer == "A":

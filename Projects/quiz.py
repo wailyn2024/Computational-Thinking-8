@@ -50,8 +50,13 @@ elif answer == "C":
 	fish_Points += 1
 
 #End
-#end of the quiz
 if cat_points > dog_points:
+	if cat_points > fish_Points:
 	print("You are a cat person")
+	elif fish_Points > cat_points
+	Print("you are a fish person!")
 elif dog_points > cat_points:
+	if dog_points > fish_Points:
 	print("You are a dog person")
+	elif dog_points < fish_Points:
+	print("You are a fish person")

@@ -1,0 +1,66 @@
+#start
+a1989_points = 0
+folklore_points = 0
+fearless_points = 0
+
+#middle
+# question 1:
+answer = input("On a weekend would you rather have an all night dance party? A) or B) listen to depressing music?) (Or play guitar? C ")
+if answer == "A":
+	a1989_points += 1 
+elif answer == "B":
+	folklore_points += 1
+elif answer  == "C":
+	fearless_points +=1
+
+# question 2:
+answer = input("Would you rather watch a thriller? A) , or B) A rom com?) or C) A comedy?") 
+if answer == "A":
+	a1989_points += 1
+elif answer == "B":
+	folklore_points += 1
+elif answer == "C":
+	fearless_points += 1
+
+# question 3:
+answer = input("Would you rather go to the beach? A) or B) would you rather go skiing ?) or C) or a farm ?")
+if answer == "A":
+	a1989_points += 1
+elif answer == "B":
+	folklore_points += 1
+elif answer == "C":
+	fearless_points += 1
+
+# question 4:
+answer = input ("Would you rather be stuck in your favorite show? A) or B) Would you rather be stuck in your favorite movie?) or C) Would you rather be stuck in your favorite movie?")
+if answer == "A":
+	a1989_points +=1
+elif answer == "B":
+	folklore_points += 1
+elif answer == "C":
+	fearless_points += 1
+
+# question 5
+answer = input ("Would you rather eat pizza? A) or B) or sushi?) or C) or brisket?")
+if answer == "A":
+	a1989_points += 1
+elif answer == "B":
+	folklore_points += 1
+elif answer == "C":
+	fearless_points += 1
+
+
+
+
+
+#ending
+if a1989_points > folklore_points and a1989_points > fearless_points:
+	print ("You are a pop person!")
+	print("Thank you for playing!")
+if folklore_points > a1989_points and folklore_points > fearless_points:
+	print ("You are a folk person!")
+	print("Thank you for playing!")
+if fearless_points > a1989_points and fearless_points > folklore_points:
+	print ("You are a country person!")
+	print("Thank you for playing!")
+

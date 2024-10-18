@@ -20,7 +20,7 @@ for i in range (300):
     t.speed(400 + i)
     #speedup
     t.left (88)
-turtle. exitonclick()
+
 
 
 

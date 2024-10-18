@@ -11,7 +11,7 @@ for i in range(500) :
     t.forward(100+i)
     t.left(100+3)
     t.color("red")
-    # on line 13 ir make my line red
+    # on line 13 it makes my line red
     t.forward(100+i)
     t.left(100+8)
     t.color("DeepSkyBlue")

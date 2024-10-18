@@ -1,4 +1,4 @@
-while True:
+impor
     word= input ("What do you think Keegan likes? ")
 
     if "T" in word:

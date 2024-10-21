@@ -1,0 +1,84 @@
+#beginning
+Amazingball_points=0
+Goodball_points = 0
+Okayball_points = 0
+Noball_points = 0
+
+#Middle
+
+# question 1:
+answer = input("Where did Messi play most of his career A) Barcelona, or B) Inter Miami?")
+if answer == "A":
+	Okayball_points += 1
+elif answer == "B":
+	Noball_points += 1
+
+# question 2:
+answer = input("Did Pele play for the nation A) Brazil, or B) Spain?")
+if answer == "A":
+	Okayball_points += 1
+elif answer == "B":
+	Noball_points += 1
+
+# question 3:
+answer = input("Does Haaland play for  A) Sweden, or B) Norway?")
+if answer == "B":
+	Goodball_points += 1
+elif answer == "A":
+	Noball_points += 1
+	
+# question 4:
+answer = input("Which world cup did Maradona win  A) ,1982 or B) 1986?")
+if answer == "A":
+	Noball_points += 1
+elif answer == "B":
+	Goodball_points += 1
+	
+# question 5:
+answer = input("Was Mbappe's first club A) PSG, or B) Monaco?")
+if answer == "B":
+	Goodball_points += 1
+elif answer == "A":
+	Noball_points += 1
+
+# question 6:
+answer = input("Did Neymar join PSG in A) 2017, or B) 2018?")
+if answer == "A":
+	Amazingball_points += 1
+elif answer == "B":
+	Noball_points += 1
+
+# question 7:
+answer = input("In 2012, did Messi score A) 90, or B)91 goals?")
+if answer == "B":
+	Amazingball_points += 1
+elif answer == "A":
+	Noball_points += 1
+
+# question 8:
+answer = input("Was Zlatan born in A) 1980, or B) 1981?")
+if answer == "A":
+	Amazingball_points += 1
+elif answer == "B":
+	Noball_points += 1
+
+# question 9:
+answer = input("Was Liverpool's first champions league in A) 1977, or B) 1980?")
+if answer == "A":
+	Amazingball_points += 1
+elif answer == "B":
+	Noball_points += 1
+		
+#end
+if Amazingball_points > Goodball_points:
+	print("You have Amazing ball knowledge")
+elif Amazingball_points < Goodball_points > Okayball_points:
+	print("You have good ball knowledge")
+elif Amazingball_points < Okayball_points > Goodball_points:
+	print("You have okay ball knowledge")
+elif Amazingball_points == Goodball_points :
+	print(" You have Great ball  knowledge")
+elif Goodball_points == Okayball_points :
+	print("You have decent ball knowledge")
+elif Amazingball_points == Okayball_points == Goodball_points :
+	print("You have mixed ball knowledge")

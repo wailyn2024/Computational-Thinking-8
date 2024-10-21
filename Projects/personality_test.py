@@ -3,7 +3,7 @@ drummer_points =0
 guitarist_points = 0
 bassist_points = 0
 
-print("this Quiz will figure out what instrument you should play/play")
+print("this Quiz will figure out what instrument you play")
 
 #Questions
 

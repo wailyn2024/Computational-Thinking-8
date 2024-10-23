@@ -1,4 +1,4 @@
-#Beginning setup
+	#Beginning setup
 Jean_points = 0
 Furina_points = 0
 Mona_points = 0

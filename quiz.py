@@ -1,4 +1,4 @@
-#beginning: 
+#setup 
 extrovert_points = 0
 introvert_points = 0
 ambivert_points = 0 
@@ -57,10 +57,14 @@ elif answer == "B":
 elif answer == "C": 
 	ambivert_points += 1
 
-#end:
-if introvert_points >extrovert_points:
-	print("You are a cat person")
-elif extrovert_points > introvert_points:
-	print("You are a dog person")
-elif ambivert_points >= introvert_points+extrovert_points: 
-	print("You are both a dog person and a cat person")
+#ending
+personality_points = [extrovert_points,introvert_points, ambivert_points]
+list_max = max(personality_points)
+print(list_max)
+
+if list_max == extrovert_points:
+	print("You are a extrovert")
+elif list_max == introvert_points:
+	print("You are a introvert")
+elif list_max == ambivert_points:
+	print("You are a ambivert")

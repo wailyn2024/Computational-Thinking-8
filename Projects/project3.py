@@ -3,7 +3,7 @@ import turtle
 t = turtle.Turtle()
 t.penup
 t.goto(100,0)
-t.color("Magenta") 
+t.color("Magenta") #on this line it makes it magenta
 t.pendown
 t.speed(400)
 

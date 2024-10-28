@@ -26,6 +26,7 @@ elif answer == "C" or "c":
 answer = input("Which sounds cooler? A) Metro 3A or B) Emerald Sound 1A?")
 if answer == "A" "a":
 	Cardinal += 1 
+if answer == "A" "a":
 	Bulldog += 1
 elif answer == "B" or "b":
 	Puma += 1
@@ -35,14 +36,16 @@ elif answer == "B" or "b":
 answer = input("Pick a number. A) 6 or B) 3 ")
 if answer == "A" "a":
 	Cardinal += 1
-elif answer == "B" or "b":
+if answer == "B" or "b":
 	Puma += 1
+elif answer == "B" or "b":
 	Bulldog += 1 
 
 # question 4:
 answer = input("Which is better? A) a school with a football team? or B) one without?")
 if answer == "A" "a":
 	Puma += 1
+if answer == "A" "a":
 	Bulldog += 1
 elif answer == "B" or "b":
 	Cardinal += 1
@@ -58,9 +61,9 @@ elif answer == "C" or "c":
 	Bulldog += 1 
 
 # end of quiz:
-if Cardinal > Puma + Bulldog:
+if Cardinal > Puma and Bulldog:
 	print("Congrats you're a Cardinal!")
-elif Puma > Cardinal + Bulldog :
+elif Puma > Cardinal and Bulldog :
 	print("Oh..you're a puma...sorry..")
-elif Bulldog > Puma + Cardinal :
+elif Bulldog > Puma and Cardinal :
 	print("Could be better.... you're a bulldog..") 

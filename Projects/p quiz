@@ -1,3 +1,11 @@
+###############################################
+### SETUP ###
+import codesters
+from codesters import StageClass
+stage = StageClass()
+###############################################
+
+
 fromis_points = 0
 lesserafim_points = 0
 
@@ -21,8 +29,9 @@ if answer == "A":
 elif answer == "B":
 	lesserafim_points += 1
 
-# end of quiz:
+
 if fromis_points > lesserafim_points:
 	print("You should listen to fromis_9! Join the flovers!")
 elif lesserafim_points > fromis_points:
 	print("You should listen to le sserafim! Join the fearnots!")
+

@@ -42,10 +42,10 @@ def show(sprite):
 	sprite.show()
 s1.event_key("g", show)
 # Section 4: bind controls to specific keys
-s1.event_key("w", move_up)
-s1.event_key("s", move_down)
-s1.event_key("d",move_right)
-s1.event_key("a",move_left)
+s1.event_key("up", move_up)
+s1.event_key("down", move_down)
+s1.event_key("right",move_right)
+s1.event_key("left",move_left)
 s1.event_key("m",turn_right)
 s1.event_key("i",turn_left)
 # Section 5: reminder message

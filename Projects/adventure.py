@@ -9,8 +9,10 @@ print("/nYou are in a deserted city. Where do you want to go?")
 print("1. search the nearby supermarket for supplies")
 print("2. head to the police station for weapons")
 print("3. look for other survivors in the park")
+print("4. stay in your home")
+print("5. use your phone and contact everyone you know to see if any survived")
 
-choice1 = input("Enter your choice (1, 2, or 3): ")
+choice1 = input("Enter your choice (1, 2, 3, 4, or 5): ")
 
 if choice1 == "1":
         print("/nYou enter the supermarket. It's dark and silent...")
@@ -52,9 +54,34 @@ elif choice1 == "3":
               print("/nYou survived. But you're now alone. Trust is hard to come by.")
         else:
               print("invalid choice!")
+              
+elif choice1 == "4":
+        print("/nIn your home, you hear something outside your door:")
+        print("1. climb out the window incase it's zombies.")
+        print("2. open the dor incase it's survivors.")
 
+        choice2 = input("Enter your choice (1 or 2): ")
+        if choice2 == "1":
+              print("/nYou escaped the zombies outside your door. ")
+        elif choice2 == "2":
+              print("/nYou were caught by the zombies. game over.")
+        else:
+              print("invalid choice!")
+
+elif choice1 == "5":
+        print("/nYou call everyone in your contacts, and someone answers:")
+        print("1. go to find them.")
+        print("2. stay put and communicate a plan.")
+
+        choice2 = input("Enter your choice (1 or 2): ")
+        if choice2 == "1":
+              print("/nYou didn't have a plan and got caught. game over")
+        elif choice2 == "2":
+              print("/nYou came up with a successful plan and lived.")
+        else:
+              print("invalid choice!")
 else:
-       print("Invalid choice! you were spotted by zombies, and ot was game over.")
+       print("Invalid choice! you were spotted by zombies, and it was game over.")
 
 # conclusion
 print("/nThank you for playing!")

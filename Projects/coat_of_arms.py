@@ -14,12 +14,12 @@ q3 = codesters.Square (-100, -100, 200, 'red')
 q4 = codesters.Square (100, -100, 200, 'green')
 
 
-s1 = codesters.Sprite("", 100, 100)
-s2 = codesters.Sprite("", -100, -100)
+s1 = codesters.Sprite("cardinal", 100, 100)
+s2 = codesters.Sprite("soccerball", -100, -100)
 s2.set_size(0.5)
-s3 = codesters.Sprite("", 100, -100)
+s3 = codesters.Sprite("cat", 100, -100)
 s3.set_size(0.5)
-s4 = codesters.Sprite("", -100, 100)
+s4 = codesters.Sprite("dog", -100, 100)
 s4.set_size(0.1)
 
 

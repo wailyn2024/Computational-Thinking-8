@@ -4,7 +4,7 @@ from codesters import StageClass
 stage = StageClass()
 
 player = codesters.Sprite("toucan")
-player.set_size(0.05)
+player.set_size(0.03)
 player.go_to(0,-200)
 stage.disable_floor()
 stage.set_background("baseballfield")
@@ -51,16 +51,20 @@ player.event_collision(collision)
 
 
 def move_up(sprite):
-	sprite.move_up(5)
+	if not gameOver:
+		sprite.move_up(5)
 
 def move_down(sprite):
-	sprite.move_down(5)
+	if not gameOver:
+		sprite.move_down(5)
 
 def move_left(sprite):
-	sprite.move_left(5)
+	if not gameOver:
+		sprite.move_left(5)
 
-def move_right(sprite):    
-	sprite.move_right(5)
+def move_right(sprite):
+	if not gameOver:    
+		sprite.move_right(5)
 
 player.event_key("w", move_up)
 player.event_key("s", move_down)

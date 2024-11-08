@@ -41,16 +41,20 @@ s1.event_key("g", show)
 def turn_left(sprite):
 	heading = sprite.heading
 	sprite.set_heading(heading + 1)
-	s1.event_key("b", turn_left)
+	s1.event_key("left", move_left)
 
 def turn_right(sprite):
 	heading = sprite.heading
 	sprite.set_heading(heading - 1)
-s1.event_key("m", turn_right)
+s1.event_key("right", move_right)
 
 def forward(sprite):
 	sprite.forward(1)
-s1.event_key("t", forward)
+s1.event_key("up", move_up)
+
+def backward(sprite):
+	sprite.backward(1)
+s1.event_key("down", move_down)
 
 #Section 8 draw
 

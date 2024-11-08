@@ -43,7 +43,7 @@ elif answer == "C":
 	Lane_points += 1
 
 #question 5
-answer = input("Finally whats your favorite flower?,  A) Roses, or B) Lily's, or C) Sunflower")
+answer = input("Finally whats your favorite flower?,  A) Roses, or B) Lily's, or C) Sunflower?")
 if answer == "A":
 	Rory_points += 1
 elif answer == "B":

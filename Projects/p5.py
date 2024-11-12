@@ -4,12 +4,12 @@ from codesters import StageClass
 stage = StageClass()
 stage.set_background("fall")
 player = codesters.Sprite("baseball")
-player.set_size(1.5)
-player.go_to(0,-200)
+player.set_size(1)
+player.go_to(9,-200)
 stage.disable_floor()
 
 gameOver = False
-lives = 5
+lives = 3
 
 # Section 2 - Objects
 

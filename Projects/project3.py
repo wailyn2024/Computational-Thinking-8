@@ -2,7 +2,7 @@ import turtle, random, math
 t= turtle.Turtle()
 #speed
 t.speed(100)
-turtle.bgcolor("purple")
+turtle.bgcolor("pink")
 #colors
 colors = ["Navy", "RoyalBlue"]
 for i in range(20000):

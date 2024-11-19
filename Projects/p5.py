@@ -52,8 +52,8 @@ def move_left(sprite):
 def move_right(sprite):    
 	player.move_right(6)
 
-player.event_key("a, left",move_left)
-player.event_key("d, right",move_right)
+player.event_key("a",move_left)
+player.event_key("d",move_right)
 
 
 

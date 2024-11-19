@@ -33,14 +33,14 @@ elif answer == "B":
     intro_points += 1
 
 # Question 5
-answer = input("Whats sounds more exciting, A) Play video games or B) Go to a new restaurant?")
+answer = input("Whats sounds more exciting, A) Playing a new video game, or B) Go to a new restaurant?")
 if answer == "A":
     intro_points += 1
 elif answer == "B":
     extro_points += 1
 
 # Question 6
-answer = input("Would you rather A) Go to a pottery class, or B) Practice a musical instrument?")
+answer = input("Would you rather A) Take a pottery class, or B) Practice a musical instrument?")
 if answer == "A":
     extro_points += 1
 elif answer == "B":
@@ -116,6 +116,20 @@ if answer == "A":
 elif answer == "B":
     intro_points += 1
 
+# Question 17
+answer = input("What place would you rather travel to, A) Tokyo, Japan, or B) Paris, France? ")
+if answer == "A":
+    extro_points += 1
+elif answer == "B":
+    intro_points += 1
+
+# Question 15
+answer = input("Pick a season, A) Spring or B) Autumn?")
+if answer == "A":
+    intro_points += 1
+elif answer == "B":
+    extro_points += 1
+
 # End: Determine results
 if extro_points > intro_points:
     print ("You are more of an Extrovert!")
@@ -123,4 +137,3 @@ elif intro_points > extro_points:
     print ("You are more Introverted!")
 elif extro_points == intro_points:
     print ("You are an ambivert! You are equally introverted and extroverted!!!")
-

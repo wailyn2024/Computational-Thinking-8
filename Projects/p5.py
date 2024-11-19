@@ -54,7 +54,7 @@ def move_right(sprite):
 
 player.event_key("a, left",move_left)
 player.event_key("d, right",move_right)
-#
+
 
 
 

@@ -57,3 +57,5 @@ s1.event_key("left", move_left)
 s1.event_key("right", move_right)
 s1.event_key("up", move_up)
 s1.event_key("down", move_down)
+
+

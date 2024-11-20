@@ -75,3 +75,6 @@ def red_pen(sprite):
 
 def green_pen(sprite):
 	sprite.set_color("green")
+
+def pink_pen(sprite):
+	sprite.set_color("pink")  

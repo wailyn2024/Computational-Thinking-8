@@ -38,9 +38,13 @@ def collision(s1, s2):
     if s2.get_image_name() == "flowers":
         stage.remove_sprite(s2)
         if points == 0:
-            print("Catch the flowers in the basket!")
+            print("Catch the flowers in the bag!")
         else:
-            print("Nice job")
+            print("Keep going!")
+            points+=1
+
+            if points == 5:
+                 gameOver = True
              
 player.event_collision(collision)
 
